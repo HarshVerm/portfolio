@@ -1,0 +1,25 @@
+
+
+.ul_list{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    /* border: 1px solid black; */
+}
+
+.ul_list li{
+    
+    margin: 0px 10px;
+}
+
+.ul_list a{
+    
+    text-decoration: none;
+    color: #492b7c;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.ul_list a:active{
+    color: gray;
+}

@@ -1,0 +1,23 @@
+.about_container{
+    /* border: 1px solid teal ; */
+    padding: 50px 0px
+}
+
+.about_wapper{
+    background-color: #55efc4;
+    margin-left: 50px;
+    border-top-left-radius: 70px;
+    border-bottom-left-radius: 0px;
+    padding: 20px 0px;
+}
+
+.about_wapper h2{
+    text-align: center;   
+}
+.about_content{
+    /* color:#0984e3 ; */
+    margin-top: 1rem;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
