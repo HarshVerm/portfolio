@@ -13,7 +13,7 @@ import useMediaQuery from "react-use-media-query-hook";
 
 export function Projects() {
   const isMobile = useMediaQuery("(max-width: 400px)");
-  const isTablet = useMediaQuery("(min-width: 401px) and (max-width: 640px)");
+  const isTablet = useMediaQuery("(min-width: 401px) and (max-width: 670px)");
   const isDesktop = useMediaQuery("(min-width: 641px) and (max-width: 1024px)");
   const isLargeDesktop = useMediaQuery("(min-width: 1025px)");
   return (
@@ -25,7 +25,7 @@ export function Projects() {
         <br />
         <Container>
           <Grid container>
-            <Grid xs={12} sm={6} md={4}>
+            <Grid item xs={12} sm={6} md={4}>
               <Box className={styles.project_card_container}>
                 <Card className={styles.card_container}>
                   <Container>
@@ -79,7 +79,7 @@ export function Projects() {
                 </Card>
               </Box>
             </Grid>
-            <Grid xs={12} sm={6} md={4}>
+            <Grid item xs={12} sm={6} md={4}>
               <Box className={styles.project_card_container}>
                 <Card className={styles.card_container}>
                   <Container>
@@ -133,7 +133,7 @@ export function Projects() {
                 </Card>
               </Box>
             </Grid>
-            <Grid xs={12} sm={6} md={4}>
+            <Grid item xs={12} sm={6} md={4}>
               <Box className={styles.project_card_container}>
                 <Card className={styles.card_container}>
                   <Container>
