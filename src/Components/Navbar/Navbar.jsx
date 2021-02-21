@@ -2,10 +2,10 @@ import React, { useEffect, useState } from "react";
 import { AppBar, Toolbar, Container, Grid, Box } from "@material-ui/core";
 import styles from "./Navbar.module.css";
 import { makeStyles } from "@material-ui/styles";
-import logo from "../../logo.ico";
 import useMediaQuery from "react-use-media-query-hook";
 import MenuIcon from "@material-ui/icons/Menu";
-import { Sidebar } from "./Sidebar";
+// import { Sidebar } from "./Sidebar";
+import logo from "../../images/logo.png";
 
 const useStyles = makeStyles(() => ({
   appBar: {
@@ -14,15 +14,19 @@ const useStyles = makeStyles(() => ({
     boxShadow: "none",
     backgroundColor: "#00cba9",
     // height: "50px",
-    animation: "moveDown 0.5s ease-in-out",
-    " @keyframes moveDown": {
-      from: {
-        transform: `translateY(-5rem)`,
-      },
-      to: {
-        transform: `translateY(0rem)`,
-      },
+    animationName: "example",
+    animation: " 0.5s ",
+  },
+  " @keyframes example": {
+    from: {
+      transform: `translateY(-5rem)`,
+      boxShadow: "none",
     },
+    to: {
+      transform: `translateY(0rem)`,
+      boxshadow: "0px 1px 10px #999",
+    },
+
     // lineHeight: 1.5,
     // opacity: "0.5",
   },
@@ -61,8 +65,8 @@ export function Navbar() {
               <Container
                 className={styles.small_navbar}
                 style={{ display: "flex", justifyContent: "space-between" }}>
-                <div>
-                  <MenuIcon />
+                <div style={{ color: "black" }}>
+                  <img src={logo} width="50" alt="logo" />
                 </div>
                 <div onClick={() => setOpen(!open)}>
                   <MenuIcon />
@@ -71,29 +75,39 @@ export function Navbar() {
               {open && (
                 <Container className={styles.small_screen}>
                   <ul>
-                    <li onClick={() => setOpen(false)}>
+                    <li>
                       <div>
-                        <a href="#home">Home</a>
+                        <a onClick={() => setOpen(false)} href="#home">
+                          Home
+                        </a>
                       </div>
                     </li>
                     <li>
                       <div>
-                        <a href="#about">About</a>
+                        <a onClick={() => setOpen(false)} href="#about">
+                          About
+                        </a>
                       </div>
                     </li>
                     <li>
                       <div>
-                        <a href="#skills">Skills</a>
+                        <a onClick={() => setOpen(false)} href="#skills">
+                          Skills
+                        </a>
                       </div>
                     </li>
                     <li>
                       <div>
-                        <a href="#project">Project</a>
+                        <a onClick={() => setOpen(false)} href="#project">
+                          Project
+                        </a>
                       </div>
                     </li>
                     <li>
                       <div>
-                        <a href="#contact">Contact</a>
+                        <a onClick={() => setOpen(false)} href="#contact">
+                          Contact
+                        </a>
                       </div>
                     </li>
                   </ul>
@@ -101,41 +115,52 @@ export function Navbar() {
               )}
             </div>
           ) : (
-            <Box
-              style={{
-                height: "50px",
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-              }}>
-              <ul className={styles.ul_list}>
-                <li>
-                  <div>
-                    <a href="#home">Home</a>
-                  </div>
-                </li>
-                <li>
-                  <div>
-                    <a href="#about">About</a>
-                  </div>
-                </li>
-                <li>
-                  <div>
-                    <a href="#skills">Skills</a>
-                  </div>
-                </li>
-                <li>
-                  <div>
-                    <a href="#project">Project</a>
-                  </div>
-                </li>
-                <li>
-                  <div>
-                    <a href="#contact">Contact</a>
-                  </div>
-                </li>
-              </ul>
-            </Box>
+            <div style={{ display: "flex", justifyContent: "space-between" }}>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                  color: "black",
+                }}>
+                <img src={logo} width="50" alt="logo" />
+              </div>
+              <div
+                style={{
+                  height: "50px",
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                }}>
+                <ul className={styles.ul_list}>
+                  <li>
+                    <div>
+                      <a href="#home">Home</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <a href="#about">About</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <a href="#skills">Skills</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <a href="#project">Project</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <a href="#contact">Contact</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
           )}
         </Container>
         {/* </Toolbar> */}

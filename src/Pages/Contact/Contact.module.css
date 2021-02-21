@@ -1,0 +1,46 @@
+.contact {
+  background-color: #492b7c;
+  padding: 80px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  font-size: 45px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  margin-bottom: 20px;
+}
+.heading span {
+  color: white;
+}
+
+.content {
+  /* letter-spacing: 1px; */
+  font-size: 18px;
+  color: white;
+  margin-bottom: 20px;
+  word-spacing: 3px;
+}
+.contact p {
+  line-height: 1.5;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 1px;
+}
+
+.subheading {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.subheading + span {
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.subheading_container {
+  margin-bottom: 10px;
+}

@@ -1,23 +1,23 @@
-.skills_container{
+.skills_container {
   /* border:1px solid red; */
   padding: 50px 0px;
 }
 
-.front_end_skill_container{
+.front_end_skill_container {
   /* border:1px solid red; */
   padding: 20px 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.back_end_skill_container{
+.back_end_skill_container {
   /* border:1px solid red; */
   padding: 20px 15px;
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
 }
-.database_skill_container{
+.database_skill_container {
   /* border:1px solid red; */
   padding: 20px 15px;
   display: flex;
@@ -25,30 +25,28 @@
   justify-content: center;
 }
 
-.card_wrapper{
-  transition: transform 0.4s ease-in-out; 
+.card_wrapper {
+  transition: transform 0.4s ease-in-out;
   padding: 15px 10px;
   margin-bottom: 7px;
   display: flex;
   justify-content: center;
-  
 }
-.card_wrapper a{
+.card_wrapper a {
   /* text-decoration: none; */
-  color:black ;
-  
+  color: black;
 }
 
-.card_wrapper:hover{
-  transition: transform 0.4s ease-in-out; 
+.card_wrapper:hover {
+  transition: transform 0.4s ease-in-out;
   transform: scale(1.05);
   z-index: 10;
 }
 
-.card_wrapper_left{
+.card_wrapper_left {
   display: flex;
 }
 
-.card_wrapper img{
+.card_wrapper img {
   width: 100%;
 }

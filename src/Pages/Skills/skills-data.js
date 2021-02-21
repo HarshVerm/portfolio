@@ -96,12 +96,12 @@ export const skills = {
       imgSrc: L_JAVASCRIPT,
       skillName: "JavaScript",
     },
-    {
-      link: "https://www.typescriptlang.org/",
-      imgAltText: "TypeScript",
-      imgSrc: L_TYPESCRIPT,
-      skillName: "TypeScript",
-    },
+    // {
+    //   link: "https://www.typescriptlang.org/",
+    //   imgAltText: "TypeScript",
+    //   imgSrc: L_TYPESCRIPT,
+    //   skillName: "TypeScript",
+    // },
   ],
   databases: [
     {

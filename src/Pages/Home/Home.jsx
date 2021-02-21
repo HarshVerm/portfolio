@@ -3,7 +3,7 @@ import { Container, Card, Grid, Box } from "@material-ui/core";
 import styles from "./Home.module.css";
 import Typewriter from "typewriter-effect";
 import ScrollReveal from "scrollreveal";
-import profile from "../../images/profile.jpg";
+import profile from "../../images/profile1.JPG";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
@@ -30,32 +30,34 @@ export function Home() {
           <Grid container direction="row">
             <Grid item xs={12} className={styles.right_container_small}>
               <div className={styles.img_container}>
-                <img src={profile} width="200" alt="" />
+                <img src={profile} width="200" height="220" alt="" />
               </div>
               <br />
               <div className={styles.social_icons}>
                 <ul>
                   <li>
-                    <Card>
-                      <a href="#">
+                    <Card className="icon_card">
+                      <a
+                        href="https://www.linkedin.com/in/harsh-verma-007/"
+                        target="blank">
                         <LinkedInIcon className={styles.icons} />
                       </a>
                     </Card>
                   </li>
                   <li>
-                    <Card>
-                      <a href="#">
+                    <Card className="icon_card">
+                      <a href="https://github.com/HarshVerm" target="blank">
                         <GitHubIcon className={styles.icons} />
                       </a>
                     </Card>
                   </li>
-                  <li>
+                  {/* <li>
                     <Card>
                       <a href="#">
                         <TwitterIcon className={styles.icons} />
                       </a>
                     </Card>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </Grid>
@@ -122,32 +124,34 @@ export function Home() {
             </Grid>
             <Grid item xs={6} className={styles.right_container}>
               <div className={styles.img_container}>
-                <img src={profile} width="200" alt="" />
+                <img src={profile} width="200" height="220" alt="" />
               </div>
               <br />
               <div className={styles.social_icons}>
                 <ul>
                   <li>
-                    <Card className={styles.icon_wrapper_card}>
-                      <a href="#">
+                    <Card>
+                      <a
+                        href="https://www.linkedin.com/in/harsh-verma-007/"
+                        target="blank">
                         <LinkedInIcon className={styles.icons} />
                       </a>
                     </Card>
                   </li>
                   <li>
                     <Card>
-                      <a href="#">
+                      <a href="https://github.com/HarshVerm" target="blank">
                         <GitHubIcon className={styles.icons} />
                       </a>
                     </Card>
                   </li>
-                  <li>
+                  {/* <li>
                     <Card>
                       <a href="#">
                         <TwitterIcon className={styles.icons} />
                       </a>
                     </Card>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </Grid>

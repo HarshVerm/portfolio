@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
 import { Home } from "./Pages/Home/Home";
 import { About } from "./Pages/About/About";
@@ -6,6 +6,7 @@ import { Projects } from "./Pages/Projects/Projects";
 import { Contact } from "./Pages/Contact/Contact";
 import { Navbar } from "./Components/Navbar/Navbar";
 import { Skills } from "./Pages/Skills/Skills";
+import { Footer } from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 }

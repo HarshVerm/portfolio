@@ -29,12 +29,16 @@
 .small_screen li {
   list-style: none;
   margin: 14px 10px;
+  transition: 0.4s;
+  animation: 0.4s;
 }
 .small_navbar {
   display: flex;
   /* justify-content: space-between; */
   /* min-height: 50px; */
   /* padding: 18px 0px; */
+  padding: 13px 0px;
+  /* color: black; */
   /* line-height: 2; */
 }
 .small_navbar_container {
