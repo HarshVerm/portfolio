@@ -4,7 +4,7 @@ import styles from "./Contact.module.css";
 
 export function Contact() {
   return (
-    <div id="contact" className={styles.contact} style={{ height: "505px" }}>
+    <div id="contact" className={styles.contact}>
       <Grid container>
         <Grid item xs></Grid>
         <Grid item xs={10} md={7}>
@@ -19,7 +19,7 @@ export function Contact() {
           </div>
           <div className={styles.subheading_container}>
             <span className={styles.subheading}>Phone No : </span>
-            <span>+91 9557098292 / 9627327621 </span>
+            <span>+91 9557098292 </span>
           </div>
           <div>
             <span className={styles.subheading}>Email : </span>

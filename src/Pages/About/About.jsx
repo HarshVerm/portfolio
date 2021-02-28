@@ -50,7 +50,7 @@ export function About() {
               <Grid item xs={10} sm={8}>
                 <a
                   className={classes.resume}
-                  href="https://drive.google.com/file/d/1WEOeL1VSx9Rxe_sQG81zBNL1SriNwZ5C/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1JY29nZ9TzPG4U7ig6jlK9wblxmcukLxV/view?usp=sharing"
                   download
                   target="blank">
                   <Button variant="outlined" className={classes.btn}>
