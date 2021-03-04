@@ -19,7 +19,7 @@ export function Contact() {
           </div>
           <div className={styles.subheading_container}>
             <span className={styles.subheading}>Phone No : </span>
-            <span>+91 9557098292 </span>
+            <span>+91 9557098292, 9627327621 </span>
           </div>
           <div>
             <span className={styles.subheading}>Email : </span>
