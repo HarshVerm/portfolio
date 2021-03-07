@@ -20,7 +20,7 @@
 
 .card_container {
   padding: 20px 0px;
-  height: 520px;
+  min-height: 520px;
   /* transition: transform 0.4s ease-out; */
 }
 

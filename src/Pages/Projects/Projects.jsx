@@ -57,7 +57,7 @@ export function Projects() {
 
                         <div className={styles.bold}>Features :</div>
                         <ul>
-                          <li>Validate registration and login</li>
+                          {/* <li>Validate registration and login</li> */}
                           <li>Movie search by title.</li>
                           <li>Integrated payment method</li>
                           <li>Video play</li>
