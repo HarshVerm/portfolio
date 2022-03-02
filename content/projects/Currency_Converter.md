@@ -2,7 +2,7 @@
 date: ''
 title: 'Currency Converter'
 github: 'https://github.com/HarshVerm/currency_converter'
-external: ''
+external: 'https://github.com/HarshVerm/currency_converter'
 tech:
   - HTML
   - CSS
