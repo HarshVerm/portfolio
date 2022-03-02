@@ -1,8 +1,8 @@
 ---
 date: ''
 title: 'LinkedIN'
-github: 'https://github.com/bchiang7/react-profile'
-external: 'https://bchiang7.github.io/react-profile/'
+github: 'https://github.com/HarshVerm/LinkedIn-Clone'
+external: 'https://linkedin-clone10.vercel.app/dashboard'
 tech:
   - HTML
   - CSS
