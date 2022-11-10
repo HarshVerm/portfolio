@@ -8,4 +8,4 @@ url: 'https://www.qapitacorp.com/'
 ---
 
 - Work with a variety of different languages, platforms, - C#, Onion Architecture.
-- Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis
+- Communicate with multi-disciplinary teams of engineers, designers, producers.
