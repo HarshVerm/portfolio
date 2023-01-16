@@ -136,7 +136,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Harsh Verma and I enjoy creating things that live on the internet.
+            A web developer who is passionate about web application development and has the ability to translate business needs into technological solutions. Comprehensive understanding of React.js and its key ideas. Knowledge of HTML, CSS, and Javascript. Development and implementation of Restful APIs. Aspiring Blockchain Developer with solidity contract development experience.
             </p>
             <h3>Worked on : </h3>
             <ul>
