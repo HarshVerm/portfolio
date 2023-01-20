@@ -7,6 +7,7 @@ range: 'March 2021 - August 2021'
 url: 'https://www.qapitacorp.com/'
 ---
 
+- Work with a variety of different languages, platforms, - C#, Mongo, GIT.
 - Worked on ESOP System as a Backend Developer.
 - Integrated third-party tools and components into applications.
 - Introduced agile methodologies and development best practices to division to enhance product development.
