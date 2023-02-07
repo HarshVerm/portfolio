@@ -3,7 +3,7 @@ date: '1'
 title: 'Ketnipz'
 cover: './ketnipz.png'
 github: 'https://github.com/HarshVerm/ShoppingCart'
-external: 'https://ketnipz-clone.vercel.app'
+external: 'https://ketnipz.vercel.app/'
 tech:
   - React
   - Redux
