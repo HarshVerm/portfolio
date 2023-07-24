@@ -3,7 +3,7 @@ date: '2021-11-07'
 title: 'Software Engineer'
 company: 'Bot Mantra'
 location: 'Bangalore, Karnataka '
-range: 'November 2021 - Present'
+range: 'November 2021 - March 2023'
 url: 'https://botmantra.com/'
 ---
 
