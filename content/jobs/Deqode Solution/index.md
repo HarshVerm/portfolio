@@ -1,5 +1,5 @@
 ---
-date: '2021-04-21'
+date: '2023-04-13'
 title: 'Senior Solution Engineer'
 company: 'Deqode Solution'
 location: 'Pune, Maharashtra'
