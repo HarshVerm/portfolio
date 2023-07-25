@@ -7,6 +7,7 @@ range: 'March 2023 - Present'
 url: 'https://deqode.com/'
 ---
 
+- Work with a variety of different languages, platforms, - HTML, CSS, JS, TypeScript, REACT, REDUX, GIT, Material UI, JEST.
 - Collaborate closely with cross-functional teams to deliver innovative solutions.
 - Embrace adaptability and effective communication in a fast-paced environment.
 - Prioritize problem-solving and quality assurance for robust software delivery.
