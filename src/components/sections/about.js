@@ -140,13 +140,13 @@ const About = () => {
             </p>
             <h3>Worked on : </h3>
             <ul>
+              <li>Inventory Management System</li>
+              <li>Meeting Scheduler, integrated calendly.</li>
               <li>ESOPs management system.</li>
               <li> An online OTT platform, where users can watch movies and series</li>
               <li>An online shopping website for accessories.</li>
               <li>An online job portal.</li>
               <li>Social network that focuses on professional networking and career development</li>
-              <li>Online currency convert USD to other.</li>
-              <li>Expense manager for all credit and debits.</li>
             </ul>
             <p>Here are a few technologies I've been working with recently:</p>
           </div>
