@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '3'
 title: 'Indeed'
 cover: './indeed.png'
 github: 'https://github.com/HarshVerm/IndeedReactClone'

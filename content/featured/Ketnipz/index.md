@@ -1,5 +1,5 @@
 ---
-date: '1'
+date: '2'
 title: 'Ketnipz'
 cover: './ketnipz.png'
 github: 'https://github.com/HarshVerm/ShoppingCart'
